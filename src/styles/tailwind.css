@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --md-sys-color-secondary: rgb(169 199 255);
+    --md-sys-color-secondary-container: rgb(38 71 119);
+    --md-sys-color-on-secondary-container: rgb(214 227 255);
+    --md-sys-color-secondary-fixed-dim: rgb(169 199 255);
+    --md-sys-color-on-secondary-fixed: rgb(0 27 61);
+    --md-sys-color-on-secondary-fixed-variant: rgb(38 71 119);
+    --md-sys-color-secondary-fixed: rgb(214 227 255);
+    --md-sys-color-on-primary-container: rgb(233 221 255);
+    --md-sys-color-primary-fixed: rgb(233 221 255);
+    --md-sys-color-primary-fixed-dim: rgb(208 188 254);
+    --md-sys-color-inverse-primary: rgb(102 85 142);
+    --md-sys-color-primary-container: rgb(77 61 117);
+    --md-sys-color-on-primary-fixed-variant: rgb(77 61 117);
+    --md-sys-color-on-primary: rgb(55 38 93);
+    --md-sys-color-on-primary-fixed: rgb(33 15 71);
+}
+
+/* Dark mode colors. */
+
+:root {
+	--sl-color-accent-low: var(--md-sys-color-on-secondary-fixed);
+	--sl-color-accent: var(--md-sys-color-on-secondary-fixed-variant);
+	--sl-color-accent-high: var(--md-sys-color-secondary-fixed);
+	--sl-color-white: var(--md-sys-color-on-primary-container);
+	--sl-color-gray-1: var(--md-sys-color-primary-fixed);
+	--sl-color-gray-2: var(--md-sys-color-primary-fixed-dim);
+	--sl-color-gray-3: var(--md-sys-color-inverse-primary);
+	--sl-color-gray-4: var(--md-sys-color-primary-container);
+	--sl-color-gray-5: var(--md-sys-color-on-primary-fixed-variant);
+	--sl-color-gray-6: var(--md-sys-color-on-primary);
+	--sl-color-black: var(--md-sys-color-on-primary-fixed);
+} 
+
+
