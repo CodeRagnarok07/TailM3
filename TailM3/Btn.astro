@@ -1,0 +1,24 @@
+---
+
+interface PropsInterface {
+    type: "filled" | "tonal"
+}
+
+
+const {type = "filled"} = Astro.props
+---
+
+
+<div class="flex justify-center items-center px-4 py-1 min-h-10 max-h-10 gap-5
+font-semibold
+rounded-full
+text-primary-on
+bg-primary
+hover:shadow-md hover:cursor-pointer
+active:bg-opacity-85
+focus:bg-opacity-85 !m-0
+">
+    filled 
+</div>
+
+
